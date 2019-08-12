@@ -1,0 +1,48 @@
+/* Sofia Pro */
+
+@font-face {
+    font-family: 'SofiaPro';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Sofia\ Pro/SofiaProBold.eot'); /* IE9+ Compat Modes */
+    src: url('../fonts/Sofia\ Pro/SofiaProBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Sofia\ Pro/SofiaProBold.woff') format('woff'); /* Modern browsers */
+}
+
+@font-face {
+    font-family: 'SofiaPro';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Sofia\ Pro/SofiaProRegular.eot'); /* IE9+ Compat Modes */
+    src: url('../fonts/Sofia\ Pro/SofiaProRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Sofia\ Pro/SofiaProRegular.woff') format('woff'); /* Modern browsers */
+}
+
+/* Gilroy */
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Gilroy/GilroyMedium.eot'); /* IE9+ Compat Modes */
+    src: url('../fonts/Gilroy/GilroyMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gilroy/GilroyMedium.woff') format('woff'); /* Modern browsers */
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Gilroy/GilroyRegular.eot'); /* IE9+ Compat Modes */
+    src: url('../fonts/Gilroy/GilroyRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gilroy/GilroyRegular.woff') format('woff'); /* Modern browsers */
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/Gilroy/GilroySemiBold.eot'); /* IE9+ Compat Modes */
+    src: url('../fonts/Gilroy/GilroySemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gilroy/GilroySemiBold.woff') format('woff'); /* Modern browsers */
+}

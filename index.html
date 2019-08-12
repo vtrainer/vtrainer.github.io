@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="fonts/FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Vocabulary Trainer</title>
+</head>
+<body>
+    <div id="app" class="animated fadeIn faster">
+        <nav class="animated fadeInDown fast">
+            <span unselectable="on" class="navbarButton">
+                Training
+                <div id="navbarUnderline"></div>
+            </span>
+
+            <span unselectable="on" class="navbarButton" id="gelk">
+                WordList
+            </span>
+        </nav>
+
+        <main>
+            <div id="training">
+                <div>
+                    <span id="trainingWord" class="animated zoomIn fast">Apple</span>
+                    <div class="animated zoomIn fast" id="checkWordInput">
+                        <input placeholder="Enter translation" type="text" name="wordForCheck">
+                        <button id="checkWordButton"><i class="fas fa-arrow-right arrowIcon"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="wordListContainer">
+                <div id="wordList">
+                    <span id="messageWL">
+                        The list of words is empty!
+                        <br><br>
+                        <span style="color: #000">
+                            Example of word list: <br><br>
+                            <pre style="background: #e4e4e4; border-radius: 10px">
+
+Word|Translation,
+Word|Translation,
+Word|Translation,
+Word|Translation
+...
+                            </pre>
+                        </span>
+                    </span>
+                    <ul id="wordListUL"></ul>
+                </div>
+                <div id="wordListButtons">
+                    <span class="wordListButton" id="selectFileButton">Select dictionary file</span>
+                    <input id="file-input" type="file" name="selectFileInput" style="display: none;" />
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

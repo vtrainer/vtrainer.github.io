@@ -1,0 +1,150 @@
+@import "./fonts.css" screen;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'SofiaPro';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background: white;
+    transition: background-color 300ms linear;
+}
+
+nav {
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarButton {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    margin: 0 35px 0 35px;    
+}
+
+#navbarUnderline {
+    position: absolute;
+    top: 30px;
+    height: 2.3px;
+    width: 64px;
+    background: black;
+    transition: .3s ease;
+    cursor: default;
+    margin-left: 210%;
+}
+
+#training {
+    height: calc(83vh - 93px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trainingWord {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+#checkWordInput {
+    background: #E4E4E4;
+    border-radius: 30px;
+    height: 50px;
+    min-width: 333px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: text;
+}
+
+#checkWordButton {
+    border: none;
+    color: #BBBBBB;
+    background: #E4E4E4;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#checkWordButton:hover {
+    color: #ABABAB;
+}
+
+.arrowIcon {
+    font-size: 19px;
+}
+
+input[name="wordForCheck"] {
+    background: #E4E4E4;
+    border: none;
+    margin-left: 25px;
+    caret-color: rgb(104,104,104);
+    color: #1C1C1C;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: normal;
+    width: 86%;
+    transition: .2s ease;
+}
+
+#wordListContainer {
+    height: calc(100vh - 93px);
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+#wordList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 100%;
+    height: calc(100vh - 223px);
+}
+
+#wordListButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 100%;
+    height: 130px;
+}
+
+#messageWL {
+    color: #FF3A3A;
+    text-align: center;
+}
+
+.wordListButton {
+    margin: 0 35px 0 35px;
+}
+
+#wordListUL {
+    list-style: none;
+}
+
+#wordListUL > li {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 28px;
+}
